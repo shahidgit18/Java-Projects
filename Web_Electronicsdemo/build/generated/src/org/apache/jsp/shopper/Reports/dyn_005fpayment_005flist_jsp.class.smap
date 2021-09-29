@@ -1,0 +1,20 @@
+SMAP
+dyn_005fpayment_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 dyn_payment_list.jsp
+shopper/Reports/dyn_payment_list.jsp
+*L
+5,13:50
+18,3:13
+20,10:63
+30,9:74
+38:83
+39:84,6
+40,2:90
+42,2:93
+43,8:95
+52,32:105
+83,5:137
+*E

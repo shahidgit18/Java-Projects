@@ -1,0 +1,19 @@
+SMAP
+dyn_005forder_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 dyn_order_list.jsp
+shopper/Reports/dyn_order_list.jsp
+*L
+5,14:50
+19,3:13
+21,10:64
+31,9:75
+39:84
+40:85,6
+41,2:91
+43,2:94
+44,41:96
+84,4:137
+*E

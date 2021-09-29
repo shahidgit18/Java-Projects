@@ -1,0 +1,20 @@
+SMAP
+dyn_005fcomp_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 dyn_comp_list.jsp
+shopper/Reports/dyn_comp_list.jsp
+*L
+5,14:50
+19,3:13
+21,10:64
+31,7:75
+37:82
+38:83,6
+39,2:89
+41,2:92
+42,8:94
+51,36:104
+86,5:140
+*E

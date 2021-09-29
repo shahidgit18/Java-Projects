@@ -1,0 +1,14 @@
+SMAP
+datewise_005fpayment_jsp.java
+JSP
+*S JSP
+*F
++ 0 datewise_payment.jsp
+shopper/Reports/datewise_payment.jsp
+*L
+5,13:50
+18,3:13
+20,25:63
+46,36:90
+81,5:126
+*E

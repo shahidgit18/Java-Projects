@@ -1,0 +1,14 @@
+SMAP
+rpt_005fitem_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 rpt_item_list.jsp
+shopper/Reports/rpt_item_list.jsp
+*L
+5,12:51
+19,2:15
+20,2:63
+22,36:66
+57,4:102
+*E

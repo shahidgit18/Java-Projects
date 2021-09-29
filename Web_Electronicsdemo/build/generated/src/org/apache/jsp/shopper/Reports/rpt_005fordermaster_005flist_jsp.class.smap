@@ -1,0 +1,14 @@
+SMAP
+rpt_005fordermaster_005flist_jsp.java
+JSP
+*S JSP
+*F
++ 0 rpt_ordermaster_list.jsp
+shopper/Reports/rpt_ordermaster_list.jsp
+*L
+5,13:51
+20,2:15
+21,2:64
+23,33:67
+55,4:100
+*E
