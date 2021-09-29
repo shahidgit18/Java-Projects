@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.itemmaster" table="item_master">
+      <id name="itemid" type="integer" column="Item_id"></id>
+      <property name="catid" type="integer" column="cat_id"/>
+      <property name="itemnm" type="string" column="Item_nm"/>
+      <property name="itemstockproof" type="string" column="Item_stock_proof"/>
+      <property name="mercurycontent" type="string" column="mercury_content"/>
+      <property name="surgeprotection" type="string" column="surge_protection"/>
+      <property name="voltagerange" type="string" column="voltage_range"/>
+      <property name="thd" type="string" column="thd"/>
+      <property name="certification" type="string" column="certification"/>
+      <property name="colorrenderingindex" type="string" column="color_rendering_index"/>
+      <property name="lamplife" type="string" column="lamp_life"/>
+      <property name="colortemp" type="string" column="color_temp"/>
+      <property name="lighteffect" type="string" column="light_effect"/>
+      <property name="startuptime" type="string" column="start_up_time"/>
+      <property name="warmuptime" type="string" column="warm_up_time"/>
+      <property name="switchingcycle" type="string" column="switching_cycle"/>
+       <property name="itemheight" type="string" column="item_height"/>
+       <property name="itemwidth" type="string" column="item_width"/>
+       <property name="netweight" type="string" column="net_weight"/>
+       <property name="itemcolor" type="string" column="Item_color"/>
+       <property name="itemrate" type="float" column="Item_rate"/>
+       <property name="itemwarrantyperiod" type="string" column="Item_warranty_period"/>
+      <property name="itemstock" type="integer" column="Item_stock"/> 
+
+  </class>
+</hibernate-mapping>

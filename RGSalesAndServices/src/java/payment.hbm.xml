@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.payment" table="payment">
+      <id name="payid" type="integer" column="pay_id"></id>
+      <property name="paydt" type="string" column="pay_date"/>
+      <property name="partyid" type="integer" column="cust_id"/>
+      <property name="payamt" type="float" column="pay_amt"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.purchasedetails" table="purchase_details">
+      <id name="purdetailid" type="integer" column="pur_detail_id"></id>
+      <property name="purid" type="integer" column="pur_id"/>
+      <property name="itemid" type="integer" column="item_id"/>
+      <property name="itemrate" type="float" column="item_rate"/>
+      <property name="itemqty" type="integer" column="item_qty"/>
+      <property name="itemamt" type="float" column="item_amt"/>
+      <property name="itemtax" type="float" column="item_tax"/>
+  </class>
+</hibernate-mapping>

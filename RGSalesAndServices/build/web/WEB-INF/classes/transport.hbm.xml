@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.transport" table="transport">
+      <id name="transid" type="integer" column="tran_id"></id>
+      <property name="transnm" type="string" column="tran_nm"/>
+      <property name="transaddr" type="string" column="tran_addr"/>
+      <property name="transphno" type="string" column="tran_phno"/>
+  </class>
+</hibernate-mapping>

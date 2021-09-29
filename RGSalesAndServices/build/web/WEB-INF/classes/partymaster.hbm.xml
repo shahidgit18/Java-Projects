@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.partymaster" table="partymaster">
+      <id name="partyid" type="integer" column="Party_ID"></id>
+      <property name="partytype" type="string" column="Party_Type"/>
+      <property name="partyname" type="string" column="Party_Name"/>
+      <property name="partyaddress" type="string" column="Party_Address"/>
+      <property name="stateid" type="integer" column="State_ID"/>
+      <property name="distid" type="integer" column="dist_id"/>
+      <property name="cityid" type="integer" column="city_id"/>
+      <property name="partygstno" type="string" column="Party_GSTNo"/>
+      <property name="partytelno1" type="string" column="Party_TelNo1"/>
+      <property name="partytelno2" type="string" column="Party_TelNo2"/>
+      <property name="partyemail" type="string" column="Party_Email"/>
+      <property name="partycontactp" type="string" column="Party_ContactP"/>
+      <property name="partycontactno" type="string" column="Party_ContactNo"/>
+  </class>
+</hibernate-mapping>

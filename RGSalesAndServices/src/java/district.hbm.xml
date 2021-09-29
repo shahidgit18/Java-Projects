@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.district" table="district">
+      <id name="distid" type="integer" column="dist_id"></id>
+      <property name="stateid" type="integer" column="state_id"/>
+      <property name="disnm" type="string" column="dist_nm"/>
+  </class>
+</hibernate-mapping>

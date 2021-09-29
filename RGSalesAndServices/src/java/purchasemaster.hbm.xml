@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="demo.purchasemaster" table="purchase_master">
+        <id name="purid" type="integer" column="pur_id"></id>
+        <property name="purdate" type="string" column="pur_date"/>
+        <property name="partyid" type="integer" column="Party_ID"/>
+        <property name="tranid" type="integer" column="tran_id"/>
+        <property name="purgrandtot" type="float" column="pur_grand_tot"/>
+    </class>
+</hibernate-mapping>

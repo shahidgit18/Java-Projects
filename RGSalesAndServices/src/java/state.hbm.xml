@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="demo.state" table="statemaster">
+      <id name="stateid" type="integer" column="State_ID"></id>
+      <property name="statenm" type="string" column="State_Name"/>
+  </class>
+</hibernate-mapping>
